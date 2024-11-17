@@ -50,12 +50,7 @@ body {
 
 
 .header__container {
-  /* max-width: var(--max-width); */
-  /* margin-inline: auto;
-  padding-block: 5rem 2rem;
-  padding-inline: 1rem;
-  display: grid;
-  gap: 2rem;  */
+
   width: 50vw;
 
 }
@@ -76,7 +71,6 @@ body {
   position: relative;
   isolation: isolate;
   max-width: fit-content;
-  /* margin-left: auto; */
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 500;
@@ -86,19 +80,10 @@ body {
 .header__content h4{
   color: white;
   font-size: 2rem;
-  /* font-family:Cambria; */
+ 
 }
 
-/* .header__content h2::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  left: 0;
-  transform: translate(calc(-100% - 1rem), -50%);
-  height: 2px;
-  width: 150%;
-  background-color: var(--white);
-} */
+
 
 .header__content h1 {
   font-size: 5rem;
@@ -142,7 +127,7 @@ body {
 }
 
 .socials {
-  /* padding-block: 2rem 4rem; */
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,15 +148,7 @@ body {
   color: var(--text-light);
 }
 
-@media (width > 768px) {
-  nav {
-    position: static;
-    padding: 2rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-  }
+
 
   .nav__header {
     padding: 0;
@@ -217,4 +194,3 @@ body {
   .socials {
     justify-content: flex-start;
   }
-}
